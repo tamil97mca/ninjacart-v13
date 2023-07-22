@@ -1,10 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'ninja-cart';
+export class AppComponent implements OnInit {
+  title = 'GroceryStore';
+
+
+  ngOnInit(): void {
+
+    if(navigator.onLine == false)
+    {
+      alert("Please turn on network connection");    
+    }
+
+
+  }
 }

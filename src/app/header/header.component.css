@@ -1,0 +1,11 @@
+.nav-item a.active
+{
+    background: lightgray;
+    border-radius: 10px;
+}
+sup {
+    background-color: #6FCA39;
+    color: white;
+    padding: 3px;
+    border-radius: 50%;
+}

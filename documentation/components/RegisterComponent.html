@@ -1,0 +1,842 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ninja-cart documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">ninja-cart documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Components</li>
+  <li class="breadcrumb-item"
+  >
+  RegisterComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" class="nav-link"
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li class="nav-item">
+            <a href="#templateData" class="nav-link"
+                role="tab" id="templateData-tab" data-bs-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li class="nav-item">
+            <a href="#styleData" class="nav-link"
+                role="tab" id="styleData-tab" data-bs-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li class="nav-item">
+            <a href="#tree" class="nav-link"
+                role="tab" id="tree-tab" data-bs-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/register/register.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code>OnInit</code>
+    </p>
+
+
+<section data-compodoc="block-metadata">
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-register</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./register.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./register.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#existEmail" >existEmail</a>
+                            </li>
+                            <li>
+                                <a href="#existPhoneno" >existPhoneno</a>
+                            </li>
+                            <li>
+                                <a href="#registerForm" >registerForm</a>
+                            </li>
+                            <li>
+                                <a href="#userDataList" >userDataList</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#register" >register</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-constructor">
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(fb: FormBuilder, userService: <a href="../injectables/UserService.html" target="_self">UserService</a>, toastr: ToastrService)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/register/register.component.ts:18</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fb</td>
+
+                                                        <td>
+                                                                    <code>FormBuilder</code>
+                                                        </td>
+
+                                                    <td>
+                                                            No
+                                                    </td>
+
+                                                </tr>
+                                                <tr>
+                                                        <td>userService</td>
+
+                                                        <td>
+                                                                        <code><a href="../injectables/UserService.html" target="_self" >UserService</a></code>
+                                                        </td>
+
+                                                    <td>
+                                                            No
+                                                    </td>
+
+                                                </tr>
+                                                <tr>
+                                                        <td>toastr</td>
+
+                                                        <td>
+                                                                    <code>ToastrService</code>
+                                                        </td>
+
+                                                    <td>
+                                                            No
+                                                    </td>
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section data-compodoc="block-methods">
+
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="33"
+                            class="link-to-prism">src/app/register/register.component.ts:33</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="register"></a>
+                    <span class="name">
+                        <span ><b>register</b></span>
+                        <a href="#register"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>register()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="37"
+                            class="link-to-prism">src/app/register/register.component.ts:37</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section data-compodoc="block-properties">
+
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="existEmail"></a>
+                    <span class="name">
+                        <span ><b>existEmail</b></span>
+                        <a href="#existEmail"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/register/register.component.ts:17</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="existPhoneno"></a>
+                    <span class="name">
+                        <span ><b>existPhoneno</b></span>
+                        <a href="#existPhoneno"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/register/register.component.ts:18</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="registerForm"></a>
+                    <span class="name">
+                        <span ><b>registerForm</b></span>
+                        <a href="#registerForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>FormGroup</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/register/register.component.ts:13</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="userDataList"></a>
+                    <span class="name">
+                        <span ><b>userDataList</b></span>
+                        <a href="#userDataList"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>any[]</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/register/register.component.ts:15</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { FormBuilder, FormControl, FormGroup, Validators } from &#x27;@angular/forms&#x27;;
+import { ToastrService } from &#x27;ngx-toastr&#x27;;
+import { UserService } from &#x27;../user.service&#x27;;
+
+@Component({
+  selector: &#x27;app-register&#x27;,
+  templateUrl: &#x27;./register.component.html&#x27;,
+  styleUrls: [&#x27;./register.component.css&#x27;]
+})
+export class RegisterComponent implements OnInit {
+
+  registerForm: FormGroup;
+
+  userDataList!: any[];
+
+  existEmail: any;
+  existPhoneno: any;
+
+  constructor(private fb: FormBuilder,
+    private userService: UserService,
+    private toastr : ToastrService)
+    {
+      this.registerForm &#x3D; this.fb.group({
+        username: new FormControl(&#x27;&#x27;, [Validators.required, Validators.minLength(3)]),
+        phoneno: new FormControl(&#x27;&#x27;, [Validators.required, Validators.pattern(&quot;^((\\+91-?)|0)?[0-9]{10}$&quot;)]),
+        email: new FormControl(&#x27;&#x27;, [Validators.required, Validators.email, Validators.pattern(&#x27;^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$&#x27;)]),
+        password: new FormControl(&#x27;&#x27;, [Validators.required, Validators.pattern(&#x27;(?&#x3D;\\D*\\d)(?&#x3D;[^a-z]*[a-z])(?&#x3D;[^A-Z]*[A-Z]).{6,8}&#x27;)]),
+        remember: new FormControl(false, Validators.required)
+      })
+    }
+
+  ngOnInit() {
+  }
+
+
+  register() {
+
+    try {
+
+      console.log(&quot;username&quot;, this.registerForm.value.username);
+      console.log(&quot;phoneno&quot;, this.registerForm.value.phoneno)
+      console.log(&quot;email&quot;, this.registerForm.value.email);
+      console.log(&quot;password&quot;, this.registerForm.value.password);
+
+
+      let userList &#x3D; {
+        &quot;selector&quot;: {
+          &quot;email&quot;: this.registerForm.value.email,
+          &quot;role&quot;: &quot;user&quot;
+        },
+        &quot;fields&quot;: [&quot;_id&quot;, &quot;_rev&quot;, &quot;name&quot;, &quot;mobileNo&quot;, &quot;email&quot;, &quot;password&quot;]
+      }
+      this.userService.userList(userList).then((res: any) &#x3D;&gt; {
+
+        if (res.status &#x3D;&#x3D;&#x3D; &quot;failed&quot; &amp;&amp; res.records.length &#x3D;&#x3D;&#x3D; 0)
+        {
+          this.toastr.error(res.message);
+          return;
+        }
+        else
+        {
+          this.userDataList &#x3D; res.records.docs;
+        console.log(&quot;listofUsers&quot;, this.userDataList);
+        console.log(&quot;listofUsers Length&quot;, this.userDataList.length);
+
+        if (this.userDataList.length &#x3D;&#x3D;&#x3D; 0) {
+
+          var registerObj &#x3D; {
+            name: this.registerForm.value.username,
+            mobileNo: this.registerForm.value.phoneno,
+            email: this.registerForm.value.email,
+            password: this.registerForm.value.password,
+            role: &quot;user&quot;,
+            registerDate: new Date(),
+            account: &quot;Active&quot;
+
+          }
+          console.log(&quot;registerObj&quot;, registerObj);
+
+          // const registerDto &#x3D; new RegisterDto(registerObj);
+
+          this.userService.userRegister(registerObj).then((result: any) &#x3D;&gt; {
+
+            if(result.status &#x3D;&#x3D; &quot;failed&quot; &amp;&amp; result.records.length &#x3D;&#x3D;&#x3D; 0)
+            {
+              this.toastr.error(result.message);
+              return;
+            }
+            else
+            {
+              console.log(&quot;result&quot;, result);
+              window.location.href &#x3D; &quot;/auth/login&quot;;
+              this.toastr.success(&quot;Registration Successfully&quot;);
+            }
+          }, () &#x3D;&gt; {
+            this.toastr.error(&quot;Registration Error&quot;);
+          })
+
+        }
+        else {
+          this.toastr.error(&quot;Email Id Already Exists&quot;);
+        }
+        }
+
+      }, err &#x3D;&gt; {
+        console.log(&quot;Error&quot;, err);
+      })
+
+    } catch (err) {
+      console.error(&quot;error&quot;,err)
+    }
+
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;section&gt;
+  &lt;video autoplay muted loop id&#x3D;&quot;myVideo&quot; preload&#x3D;&quot;metadata&quot;&gt;
+    &lt;source src&#x3D;&quot;assets/video/loginvideo.mp4&quot; type&#x3D;&quot;video/mp4&quot;&gt;
+    Your browser does not support HTML5 video.
+  &lt;/video&gt;
+
+  &lt;div class&#x3D;&quot;content&quot;&gt;
+
+    &lt;form [formGroup]&#x3D;&quot;registerForm&quot; (ngSubmit)&#x3D;&quot;register()&quot;&gt;
+
+      &lt;!-- &lt;img src&#x3D;&quot;assets/images/logo/dplogo.png&quot; alt&#x3D;&quot;logo&quot; width&#x3D;&quot;60%&quot; height&#x3D;&quot;60%&quot;&gt; --&gt;
+
+      &lt;div style&#x3D;&quot;text-align: center&quot;&gt;
+        &lt;img src&#x3D;&quot;assets/images/logo/games/dplogo.png&quot; alt&#x3D;&quot;logo&quot; width&#x3D;&quot;30%&quot; height&#x3D;&quot;30%&quot;&gt;
+      &lt;/div&gt;
+
+      &lt;div class&#x3D;&quot;form-group&quot;&gt;
+        &lt;label for&#x3D;&quot;username&quot;&gt;UserName &lt;sup&gt;*&lt;/sup&gt;&lt;/label&gt;
+        &lt;input formControlName&#x3D;&quot;username&quot; class&#x3D;&quot;form-control&quot; type&#x3D;&quot;text&quot; name&#x3D;&quot;username&quot; id&#x3D;&quot;username&quot;
+          pattern&#x3D;&quot;[a-zA-Z]{3,20}&quot; placeholder&#x3D;&quot;Enter name&quot; autofocus autocomplete&#x3D;&quot;off&quot; required&gt;
+        &lt;span *ngIf&#x3D;&quot;registerForm.controls[&#x27;username&#x27;].errors &amp;&amp; registerForm.controls[&#x27;username&#x27;].dirty&quot; class&#x3D;&quot;danger&quot;
+          padding&gt;Username is not valid.&lt;/span&gt;
+      &lt;/div&gt;
+
+      &lt;div class&#x3D;&quot;form-group&quot;&gt;
+        &lt;label for&#x3D;&quot;phone&quot;&gt;Phone No &lt;sup&gt;*&lt;/sup&gt;&lt;/label&gt;
+        &lt;input formControlName&#x3D;&quot;phoneno&quot; class&#x3D;&quot;form-control&quot; type&#x3D;&quot;tel&quot; name&#x3D;&quot;phoneno&quot; id&#x3D;&quot;phoneno&quot;
+          pattern&#x3D;&quot;[9876][0-9]{9}&quot; placeholder&#x3D;&quot;Enter phone no&quot; maxlength&#x3D;&quot;10&quot; minlength&#x3D;&quot;10&quot; autocomplete&#x3D;&quot;off&quot; required&gt;
+        &lt;span *ngIf&#x3D;&quot;registerForm.controls[&#x27;phoneno&#x27;].errors &amp;&amp; registerForm.controls[&#x27;phoneno&#x27;].dirty&quot; class&#x3D;&quot;danger&quot;
+          padding&gt;Phone No is not valid.&lt;/span&gt;
+      &lt;/div&gt;
+
+      &lt;div class&#x3D;&quot;form-group&quot;&gt;
+        &lt;label for&#x3D;&quot;email&quot;&gt;Email &lt;sup&gt;*&lt;/sup&gt;&lt;/label&gt;
+        &lt;input formControlName&#x3D;&quot;email&quot; class&#x3D;&quot;form-control&quot; type&#x3D;&quot;email&quot; name&#x3D;&quot;email&quot; id&#x3D;&quot;email&quot;
+          title&#x3D;&quot;Email must be a valid email address&quot; placeholder&#x3D;&quot;Enter email address&quot; autocomplete&#x3D;&quot;off&quot; required&gt;
+        &lt;span *ngIf&#x3D;&quot;registerForm.controls[&#x27;email&#x27;].errors &amp;&amp; registerForm.controls[&#x27;email&#x27;].dirty&quot; class&#x3D;&quot;danger&quot; padding&gt;Email
+          No is not valid.&lt;/span&gt;
+      &lt;/div&gt;
+
+      &lt;div class&#x3D;&quot;form-group&quot;&gt;
+        &lt;label for&#x3D;&quot;psw&quot;&gt;Password &lt;sup&gt;*&lt;/sup&gt;&lt;/label&gt;
+        &lt;input formControlName&#x3D;&quot;password&quot; class&#x3D;&quot;form-control&quot; type&#x3D;&quot;password&quot; name&#x3D;&quot;password&quot; id&#x3D;&quot;password&quot;
+          placeholder&#x3D;&quot;Enter password&quot; minlength&#x3D;&quot;6&quot; maxlength&#x3D;&quot;8&quot; autocomplete&#x3D;&quot;off&quot; required&gt;
+        &lt;span *ngIf&#x3D;&quot;registerForm.controls[&#x27;password&#x27;].errors &amp;&amp; registerForm.controls[&#x27;password&#x27;].dirty&quot; class&#x3D;&quot;danger&quot;
+          padding&gt;Password No is not valid.&lt;/span&gt;
+      &lt;/div&gt;
+
+      &lt;div class&#x3D;&quot;text-center log&quot;&gt;
+        &lt;a href&#x3D;&quot;/auth/login&quot; routerLink&#x3D;&quot;/auth/login&quot;&gt;Login&lt;/a&gt; &amp;nbsp; &lt;button class&#x3D;&quot;btn&quot; type&#x3D;&quot;submit&quot;
+          [disabled]&#x3D;&quot;!registerForm.valid&quot;&gt;Register&lt;/button&gt;&amp;nbsp; &lt;a routerLink&#x3D;&quot;/home&quot; href&#x3D;&quot;/home&quot;&gt;Skip&lt;/a&gt;
+      &lt;/div&gt;
+
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="styleData">
+                <p class="comment">
+                    <code>./register.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-size: 17px;
+  }
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    max-width: 100vw;
+  }
+
+  .content {
+    position: fixed;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100vw;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+
+.form-group
+{
+    margin: auto;
+    width: 240px;
+    text-align: center;
+    color: rgb(17, 17, 17);
+
+}
+h1
+{
+    text-align: center;
+    color: rgb(7, 7, 7);
+    padding-top: 30px;
+}
+.text-center
+{
+    color: rgb(22, 21, 22);
+    padding-bottom: 25px;
+}
+form
+{
+    background: white;
+    margin-left: 38%;
+    margin-right: 38%;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+label
+{
+    padding-top: 10px;
+    color: #6FCA39;
+}
+.btn
+{
+    border-radius: 25px;
+    background: #6FCA39;
+
+}
+/* img
+{
+    margin-left: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+} */
+.form-control
+{
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-color: #6FCA39;
+}
+sup
+{
+    color: red;
+}
+.log
+{
+    margin-top: 20px;
+}
+.danger
+{
+    color: red;
+    font-size: 12px;
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><section>  <video autoplay muted loop id="myVideo" preload="metadata">    <source src="assets/video/loginvideo.mp4" type="video/mp4">    Your browser does not support HTML5 video.  </video>  <div class="content">    <form [formGroup]="registerForm" (ngSubmit)="register()">      <!-- <img src="assets/images/logo/dplogo.png" alt="logo" width="60%" height="60%"> -->      <div style="text-align: center">        <img src="assets/images/logo/games/dplogo.png" alt="logo" width="30%" height="30%">      </div>      <div class="form-group">        <label for="username">UserName <sup>*</sup></label>        <input formControlName="username" class="form-control" type="text" name="username" id="username"          pattern="[a-zA-Z]{3,20}" placeholder="Enter name" autofocus autocomplete="off" required>        <span *ngIf="registerForm.controls[\'username\'].errors && registerForm.controls[\'username\'].dirty" class="danger"          padding>Username is not valid.</span>      </div>      <div class="form-group">        <label for="phone">Phone No <sup>*</sup></label>        <input formControlName="phoneno" class="form-control" type="tel" name="phoneno" id="phoneno"          pattern="[9876][0-9]{9}" placeholder="Enter phone no" maxlength="10" minlength="10" autocomplete="off" required>        <span *ngIf="registerForm.controls[\'phoneno\'].errors && registerForm.controls[\'phoneno\'].dirty" class="danger"          padding>Phone No is not valid.</span>      </div>      <div class="form-group">        <label for="email">Email <sup>*</sup></label>        <input formControlName="email" class="form-control" type="email" name="email" id="email"          title="Email must be a valid email address" placeholder="Enter email address" autocomplete="off" required>        <span *ngIf="registerForm.controls[\'email\'].errors && registerForm.controls[\'email\'].dirty" class="danger" padding>Email          No is not valid.</span>      </div>      <div class="form-group">        <label for="psw">Password <sup>*</sup></label>        <input formControlName="password" class="form-control" type="password" name="password" id="password"          placeholder="Enter password" minlength="6" maxlength="8" autocomplete="off" required>        <span *ngIf="registerForm.controls[\'password\'].errors && registerForm.controls[\'password\'].dirty" class="danger"          padding>Password No is not valid.</span>      </div>      <div class="text-center log">        <a href="/auth/login" routerLink="/auth/login">Login</a> &nbsp; <button class="btn" type="submit"          [disabled]="!registerForm.valid">Register</button>&nbsp; <a routerLink="/home" href="/home">Skip</a>      </div>    </form>  </div></section></div>'
+    var COMPONENTS = [{'name': 'AboutComponent', 'selector': 'app-about'},{'name': 'AddProductComponent', 'selector': 'app-add-product'},{'name': 'AdminComponent', 'selector': 'app-admin'},{'name': 'AdminListComponent', 'selector': 'app-admin-list'},{'name': 'AdminPanelComponent', 'selector': 'app-admin-panel'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ChartComponent', 'selector': 'app-chart'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'ImageGalleryComponent', 'selector': 'app-image-gallery'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MyOrderComponent', 'selector': 'app-my-order'},{'name': 'NgContentComponent', 'selector': 'app-ng-content'},{'name': 'OrderNowComponent', 'selector': 'app-order-now'},{'name': 'PageNotFoundComponent', 'selector': 'app-page-not-found'},{'name': 'PlaceOrdersComponent', 'selector': 'app-place-orders'},{'name': 'ProductcategoryComponent', 'selector': 'app-productcategory'},{'name': 'ProductListComponent', 'selector': 'app-product-list'},{'name': 'ProductsComponent', 'selector': 'app-products'},{'name': 'RegisterComponent', 'selector': 'app-register'},{'name': 'RemoveProductComponent', 'selector': 'app-remove-product'},{'name': 'SalesChartComponent', 'selector': 'app-sales-chart'},{'name': 'SideNavBarComponent', 'selector': 'app-side-nav-bar'},{'name': 'UpdateProductComponent', 'selector': 'app-update-product'},{'name': 'UserListComponent', 'selector': 'app-user-list'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'RegisterComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'RegisterComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
