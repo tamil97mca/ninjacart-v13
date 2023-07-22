@@ -12,44 +12,44 @@ export class RestService {
   { }
 
   findAll(collectionName:string) {
-    // const url = environment.url + collectionName + "/_all_docs?include_docs=true&attachments=true";
-    const url = collectionName + "/_all_docs?include_docs=true&attachments=true";
+    const url = environment.url + collectionName + "/_all_docs?include_docs=true&attachments=true";
+    // const url = collectionName + "/_all_docs?include_docs=true&attachments=true";
    const httpRequest = this.http.get( url);
    return this.promiseMethod(httpRequest);
   }
 
   findOne(collectionName:string, id:string) {
-    // const url = environment.url + collectionName + "/"+ id;
-    const url = collectionName + "/"+ id;
+    const url = environment.url + collectionName + "/"+ id;
+    // const url = collectionName + "/"+ id;
     const httpRequest = this.http.get( url);
     return this.promiseMethod(httpRequest);
   }
 
 
   findByCriteria(collectionName:string, criteria: any) {
-    // const url = environment.url + collectionName + "/_find";
-    const url = collectionName + "/_find";
+    const url = environment.url + collectionName + "/_find";
+    // const url = collectionName + "/_find";
     const httpRequest = this.http.post( url, criteria);
     return this.promiseMethod(httpRequest);
   }
 
   save(collectionName:string, data: any) {
-    // const url = environment.url + collectionName ;
-    const url = collectionName ;
+    const url = environment.url + collectionName ;
+    // const url = collectionName ;
     const httpRequest =  this.http.post( url, data);
     return this.promiseMethod(httpRequest);
   }
 
   deleteOne(collectionName:string, id:string, rev:string) {
-    // const url = environment.url + collectionName + "/"+ id + "?rev="+ rev;
-    const url = collectionName + "/"+ id + "?rev="+ rev;
+    const url = environment.url + collectionName + "/"+ id + "?rev="+ rev;
+    // const url = collectionName + "/"+ id + "?rev="+ rev;
     const httpRequest =  this.http.delete( url);
     return this.promiseMethod(httpRequest);
   }
 
   updateOne(collectionName:string, id:string, data:any) {
-    // const url = environment.url + collectionName + "/"+ id ;
-    const url = collectionName + "/"+ id ;
+    const url = environment.url + collectionName + "/"+ id ;
+    // const url = collectionName + "/"+ id ;
     const httpRequest =  this.http.put( url, data );
     return this.promiseMethod(httpRequest);
   }
@@ -58,8 +58,8 @@ export class RestService {
   updateImg(collectionName:string, data:any)
   {
     // console.log(data);
-    // const url = environment.url + collectionName + "/"+ data._id +"/image?rev="+ data._rev;
-    const url = collectionName + "/"+ data._id +"/image?rev="+ data._rev;
+    const url = environment.url + collectionName + "/"+ data._id +"/image?rev="+ data._rev;
+    // const url = collectionName + "/"+ data._id +"/image?rev="+ data._rev;
     const httpRequest =  this.http.put( url, data.image );
     return this.promiseMethod(httpRequest);
   }
